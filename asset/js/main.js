@@ -18,6 +18,16 @@ function closeNav() {
 
 }
 
+function burgerHover() {
+    $('.menuBurger').css('transform', 'rotate(360deg)')
+    $('.menuBurger').css('transition', '0.5s')
+
+}
+function burgerUnhover() {
+    $('.menuBurger').css('transform', 'rotate(0deg)')
+    $('.menuBurger').css('transition', '0.5s')
+}
+
 
 
 

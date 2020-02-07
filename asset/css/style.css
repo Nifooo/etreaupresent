@@ -18,9 +18,10 @@ header {
 header .burger {
     width: 30px;
     height: 2px;
-    margin: 10px 0;
+    margin: 8px 0;
     background-color: black;
 }
+
 
 header .menuBurger {
     display: inline-block;
@@ -28,6 +29,7 @@ header .menuBurger {
     margin: 0 2% 0 0;
     cursor: pointer;
 }
+
 
 
 header .title-bar {
@@ -83,7 +85,7 @@ header .title-bar {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 2px 2% 0 0;
+    margin: 0 2% 0 0;
     font-size: 60px;
 }
 
@@ -113,7 +115,7 @@ header .title-bar {
 
 
 .separation {
-    padding: 33px 0;
+    padding: 29px 0;
 }
 
 .container {

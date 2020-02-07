@@ -28,7 +28,7 @@
 
     </div>
 
-    <div class="menuBurger" onclick="openNav()">
+    <div class="menuBurger" onclick="openNav()" onmouseover="burgerHover()" onmouseleave="burgerUnhover()">
         <div class="burger"></div>
         <div class="burger"></div>
         <div class="burger"></div>
