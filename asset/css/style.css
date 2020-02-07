@@ -124,7 +124,7 @@ header .title-bar {
 
 .centered {
     position: absolute;
-    top: 32%;
+    top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -136,7 +136,7 @@ header .title-bar {
 
 .centered2 {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -148,10 +148,23 @@ header .title-bar {
 
 .centered3 {
     position: absolute;
-    top: 52%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 1.4em;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.centered4 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.centered4 img {
+    width: 10%;
+    transform: rotate(90deg);
 }

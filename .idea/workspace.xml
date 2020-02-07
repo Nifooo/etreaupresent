@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48b07f0-5d3f-4077-82b7-5041bce82a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asset/img/relax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/img/arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/massage1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/img/massage1.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,7 @@
   </component>
   <component name="ProjectId" id="1X7WuyR9EAufj8T7qulni6vLcNj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -76,10 +77,29 @@
       <workItem from="1580981424899" duration="827000" />
       <workItem from="1581080966452" duration="8445000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1581092779599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581092779599</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2">
+      <created>1581092937002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581092937002</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580397956534">
