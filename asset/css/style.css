@@ -104,6 +104,7 @@ header .title-bar {
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    z-index: 2;
 }
 
 
@@ -114,4 +115,44 @@ header .title-bar {
 
 .separation {
     padding: 33px 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.centered2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.centered2 img {
+    width: 60%;
+}
+
+.centered3 {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
