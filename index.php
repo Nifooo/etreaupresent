@@ -8,7 +8,7 @@ include('inc/header.php');
     <div class="centered">Être au présent</div>
     <div class="centered2"><img src="asset/img/separation.png" alt=""></div>
     <div class="centered3">Venez pour vous détendre durant un temps infini</div>
-    <a href=""><div class="centered4"><img src="asset/img/arrow.svg" alt="fleche"></div></a>
+    <a href="index.php#qui"><div class="centered4"><img src="asset/img/arrow.svg" alt="fleche"></div></a>
 </div>
 
 <section id="qui">
