@@ -7,7 +7,7 @@ include('inc/header.php');
     <img src="asset/img/massage1.jpeg" alt="Massage" style="width:100%;">
     <div class="centered">Être au présent</div>
     <div class="centered2"><img src="asset/img/separation.png" alt=""></div>
-    <div class="centered3">Venez vous détendre durant un temps infini</div>
+    <div class="centered3">Venez pour vous détendre durant un temps infini</div>
 </div>
 
 <section id="qui">
