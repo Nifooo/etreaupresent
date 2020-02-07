@@ -1,10 +1,23 @@
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
+    $('.menuBurger').css('display', "none")
+    setTimeout(function () {
+        $('.overlay-content').css('display', "block")
+    }, 100);
 }
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+    setTimeout(function () {
+        $('.menuBurger').css('display', "inline-block")
+    },300);
+    setTimeout(function () {
+        $('.overlay-content').css('display', "none")
+    }, 200);
+
+
 }
+
 
 
 

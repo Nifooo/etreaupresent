@@ -25,9 +25,14 @@ header .burger {
 header .menuBurger {
     display: inline-block;
     float: right;
+    margin: 0 2% 0 0;
+    cursor: pointer;
+}
+header .menuBurger:hover {
+
 }
 
-header p {
+header .title-bar {
     display: inline-block;
     margin: 4px 0 0 40%;
     font-family: 'Dancing Script', cursive;
@@ -48,30 +53,38 @@ header p {
 }
 
 .overlay-content {
+    display: none;
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 }
+.overlay-content img {
+    width: 3%;
+    margin-bottom: -5px;
+    margin-right: 1%;
+}
 
 .overlay a {
-    padding: 8px;
+    padding: 12px 0;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #FADCAC;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    opacity: 60%;
 }
 
 .overlay .closebtn {
+    padding: 0;
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 0;
+    right: 0;
+    margin: 2px 2% 0 0;
     font-size: 60px;
 }
 
@@ -101,16 +114,4 @@ header p {
 
 .separation {
     padding: 33px 0;
-}
-
-.container {
-    text-align: center;
-    color: white;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }

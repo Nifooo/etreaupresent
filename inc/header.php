@@ -12,16 +12,16 @@
 
 <header id="navbar">
 
-    <p>Naviguer en toute tranquilité</p>
+    <p class="title-bar">Naviguer en toute tranquilité</p>
     <div id="myNav" class="overlay">
 
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="#"><img src="asset/img/relax.svg">Mes massages</a>
+            <a href="#"><img src="asset/img/natural-product.svg">Mes produits</a>
+            <a href="#"><img src="asset/img/gift-card.svg">Bons cadeaux</a>
+            <a href="#"><img src="asset/img/notepad.svg">Tarifs & disponibilités</a>
         </div>
 
     </div>
