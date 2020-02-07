@@ -35,3 +35,5 @@
     <div class="clear"></div>
 
 </header>
+
+<div class="separation"></div>
