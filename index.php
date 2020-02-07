@@ -1,7 +1,7 @@
 <?php
 include('inc/header.php');
 
-?>
+ ?>
 
 <div class="container">
     <img src="asset/img/massage1.jpeg" alt="Massage" style="width:100%;">
