@@ -11,9 +11,20 @@ include('inc/header.php');
     <a href="index.php#qui"><div class="centered4"><img src="asset/img/arrow.svg" alt="fleche"></div></a>
 </div>
 
-<section id="qui">
+<div class="wrap">
+    <section id="who">
+        <h2 class="titlewho">Qui suis-je ?</h2>
+        <div class="bar1"></div>
+        <h3>Apprenez à me connaître à travers mon univers.</h3>
+        <div class="bar1"></div>
+        <div class="containerwho">
+            <div class="textwho"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto aspernatur atque, aut autem consequuntur dolorem doloremque exercitationem, illum impedit ipsam molestias nemo neque, non nostrum quas qui quo repudiandae sit tempora totam vel vitae? Consectetur consequatur deleniti deserunt dolores enim in magni, modi sint, tempore ut voluptates, voluptatibus?</p></div>
+            <div class="centerdiv"><div class="bar2"></div> </div>
+            <div class="imgwho"><img src="asset/img/woman.jpg"></div>
+        </div>
 
-</section>
+    </section>
+</div>
 
 
 
