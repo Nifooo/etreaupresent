@@ -117,6 +117,10 @@ header .title-bar {
 /*///////////////////////////////
             Qui suis-je
  //////////////////////////////*/
+
+
+
+
 #who {
     background-color: #f8f8f8;
     padding: 6% 0;
@@ -354,13 +358,17 @@ header .title-bar {
     text-align: center;
 }
 
-#massage a  {
+#massage a {
     text-decoration: none;
     color: white;
     font-size: 2.5em;
     position: relative;
     top: 35%;
     transform: translate(-50%, -50%);
+}
+
+#massage a:hover {
+    color: #797979;
 }
 
 #massage .hoverlay {
@@ -370,4 +378,59 @@ header .title-bar {
     background-color: rgba(142, 211, 204, 0.8);
     width: 50%;
     height: 250px;
+}
+
+
+
+/*///////////////////////////////
+           FORMULAIRE
+ //////////////////////////////*/
+
+
+
+.bg-img {
+    background-image: url('../img/massage4.jpg');
+
+    min-height: 600px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.containerx {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
 }

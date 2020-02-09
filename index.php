@@ -80,11 +80,36 @@ include('inc/header.php');
 <section id="massage">
     <div class="textMassage">
         <h2>Faites-vous plaisir</h2>
-        <p>N’attendez plus le voyage annuel pour retrouver le sable blanc et le bois flotté, la douce odeur des huiles de massage et les mains expertes d’un spécialiste du bien être. Heaven massage Paris a réuni ces ingrédients pour offrir à votre corps un instant privilégié de détente, avec un professionnel à votre écoute.</p>
+        <p>N’attendez plus le voyage annuel pour retrouver le sable blanc et le bois flotté, la douce odeur des huiles de massage et les mains expertes d’un spécialiste du bien être. Être au présent a réuni ces ingrédients pour offrir à votre corps un instant privilégié de détente, avec une professionnel à votre écoute.</p>
     </div>
     <div class="imgMassage">
         <img src="asset/img/massage2.jpg" alt="massage">
         <div class="hoverlay"><a href="#">Découvrez mes massages</a></div>
+    </div>
+</section>
+
+<section id="formulaire">
+    <div class="bg-img">
+        <form action="/action_page.php" class="containerx" novalidate>
+            <h1>Contactez-moi :</h1>
+
+            <label for="email"><b>Nom</b></label>
+            <input type="text" placeholder="Enter nom" name="nom" required>
+
+            <label for="psw"><b>Prénom</b></label>
+            <input type="text" placeholder="Entrer prénom" name="prenom" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+
+            <label for="email"><b>Objet</b></label>
+            <input type="text" placeholder="Enter objet" name="objet" required>
+
+            <label for="email"><b>Message</b></label>
+            <textarea name="message" id="message">Entrer message ici...</textarea>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
     </div>
 </section>
 
