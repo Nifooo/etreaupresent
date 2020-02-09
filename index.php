@@ -18,7 +18,14 @@ include('inc/header.php');
         <h3>Apprenez à me connaître à travers mon univers.</h3>
         <div class="bar1"></div>
         <div class="containerwho">
-            <div class="textwho"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto aspernatur atque, aut autem consequuntur dolorem doloremque exercitationem, illum impedit ipsam molestias nemo neque, non nostrum quas qui quo repudiandae sit tempora totam vel vitae? Consectetur consequatur deleniti deserunt dolores enim in magni, modi sint, tempore ut voluptates, voluptatibus?</p></div>
+            <div class="textwho"><p>Praticienne en massage bien être certifié membre de la federation francaise de massage bien être (inclure le logo ffmbe c est une main...)
+
+                    <br>
+                    Loin des grandes instituts, je vous acceuille dans un endroit cosy sans stress, et se déroule dans un cadre de confidentialité, de bienveillance et de non jugement.
+                    <br>
+
+                    Infirmiere de formation c'est tout naturellement que la massage bien être s'offre à moi. Les douleurs (doux leure) du corps de l'être soigné ne sont généralement pas pris en compte en occident. Je desire donner une autre dimention à ma vie profesionnelle, disons un peu plus humaniste, c'est pour moi une véritable passion de pouvoir allier le corps et l'esprit.
+                    </p></div>
             <div class="centerdiv"><div class="bar2"></div> </div>
             <div class="imgwho"><img src="asset/img/woman.jpg"></div>
         </div>
