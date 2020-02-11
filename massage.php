@@ -28,13 +28,13 @@ include('inc/header.php'); ?>
 
     ;; ?>
     <div id="listeMassage">
-            <a href="details.php"><img src="asset/img/logo.png" alt="logo du site"></a>
+            <a href="infomassage.php?id=<?php '.  $id .' ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
 
             <div class="mass">
-            <a href="details.php"><h3><?= $massage['nom']; ?></h3></a>
+            <a href="infomassage.php"><h3><?= $massage['nom']; ?></h3></a>
             <h4><?= $massage['prix'] . '€'; ?></h4>
             <h4><?= $massage['time']; ?></h4>
-            <a href="details.php"><p>Voir plus -></p></a>
+            <a href="infomassage.php"><p>Voir plus -></p></a>
             </div>
     </div>
 
