@@ -8,7 +8,7 @@ include('inc/header.php');
     <div class="centered">Être au présent</div>
     <div class="centered2"><img src="asset/img/separation.png" alt=""></div>
     <div class="centered3">Venez pour vous détendre durant un temps infini</div>
-    <a href="index.php#qui"><div class="centered4"><img src="asset/img/arrow.svg" alt="fleche"></div></a>
+    <a href="index.php#massage"><div class="centered4"><img src="asset/img/arrow.svg" alt="fleche"></div></a>
 </div>
 
 
@@ -73,19 +73,19 @@ include('inc/header.php');
         <form action="/action_page.php" class="containerx" novalidate>
             <h2>Contactez-moi :</h2>
 
-            <label for="email"><b>Nom</b></label>
-            <input type="text" placeholder="Enter nom" name="nom" required>
+            <label for="nom"><b>Nom</b></label>
+            <input type="text" placeholder="Enter nom" name="nom" id="nom" required>
 
-            <label for="psw"><b>Prénom</b></label>
-            <input type="text" placeholder="Entrer prénom" name="prenom" required>
+            <label for="prenom"><b>Prénom</b></label>
+            <input type="text" placeholder="Entrer prénom" name="prenom" id="prenom" required>
 
             <label for="email"><b>Email</b></label>
-            <input type="email" placeholder="Enter Email" name="email" required>
+            <input type="email" placeholder="Enter Email" name="email" id="email" required>
 
-            <label for="email"><b>Objet</b></label>
-            <input type="text" placeholder="Enter objet" name="objet" required>
+            <label for="objet"><b>Objet</b></label>
+            <input type="text" placeholder="Enter objet" name="objet" id="objet" required>
 
-            <label for="email"><b>Message</b></label>
+            <label for="message"><b>Message</b></label>
             <textarea name="message" id="message" placeholder="Entrer message ici..."></textarea>
 
             <button type="submit" class="btn">Login</button>
@@ -119,3 +119,5 @@ include('inc/header.php');
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="asset/js/main.js"></script>
 
+<?php
+include ('inc/footer.php');
