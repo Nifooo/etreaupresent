@@ -1,6 +1,6 @@
 <footer>
     <div class="social">
-        <h3>Me retrouver</h3><div class="barfooter2"></div>
+        <h3>Me retrouver</h3><div class="barfooter"></div>
         <ul>
             <li><img src="asset/img/instagram.svg">Insta</li>
             <li><img src="asset/img/facebook.svg">fb</li>

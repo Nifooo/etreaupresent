@@ -28,7 +28,7 @@ include('inc/header.php'); ?>
 
     ;; ?>
     <div id="listeMassage">
-            <a href="infomassage.php?id=<?php '.  $id .' ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
+            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
 
             <div class="mass">
             <a href="infomassage.php"><h3><?= $massage['nom']; ?></h3></a>

@@ -551,26 +551,40 @@ footer {
     background-color: #b77952cb;
     color: white;
 }
-footer .social {
-    width: 24.5%;
+footer h3 {
+    display: inline;
+}
+footer .barfooter {
+    width: 60%;
+    height: 1px;
+    background-color: white;
     display: inline-block;
+    margin: 0 0 3px 10px;
+}
+footer .social {
+    width: 20%;
+    display: inline-block;
+    margin-left:4.5% ;
 }
 .social img {
     width: 6%;
 }
 
 footer .found {
-    width: 24.5%;
+    width: 20%;
     display: inline-block;
+    margin-left:4.5% ;
 }
 .found img {
     width: 6%;
 }
 footer .information {
-    width: 24.5%;
+    width: 20%;
     display: inline-block;
+    margin-left:4.5% ;
 }
 footer .photo {
-    width: 24.5%;
+    width: 20%;
     display: inline-block;
+    margin-left:4.5% ;
 }

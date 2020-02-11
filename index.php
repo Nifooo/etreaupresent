@@ -100,7 +100,7 @@ include('inc/header.php');
         <h3>Apprenez à me connaître à travers mon univers.</h3>
         <div class="bar1"></div>
         <div class="containerwho">
-            <div class="textwho"><p>Mercedes Molal, praticienne en massage bien être certifié membre de la fédération française de massage bien être.
+            <div class="textwho"><p>Mercedes Momal, praticienne en massage bien être certifié membre de la fédération française de massage bien être.
 
                     <br>
                     Loin des grands instituts, je vous accueille dans un endroit cosy sans stress, et se déroule dans un cadre de confidentialité, de bienveillance et de non jugement.
