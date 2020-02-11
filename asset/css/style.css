@@ -508,6 +508,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
 footer {
     background-color: #b77952cb;
+    color: white;
 }
 footer .social {
     width: 24.5%;
