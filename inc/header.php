@@ -2,6 +2,7 @@
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="asset/img/separation.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">

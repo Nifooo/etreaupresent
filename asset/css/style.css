@@ -27,7 +27,6 @@ header .burger {
 
 
 header .menuBurger {
-    display: inline-block;
     float: right;
     margin: 0 2% 0 0;
     cursor: pointer;
@@ -169,7 +168,6 @@ header .title-bar {
 }
 #who .containerwho .imgwho {
     width: 44%;
-    display: inline-block;
     float: right;
 }
 #who .containerwho .imgwho img {
@@ -243,6 +241,10 @@ header .title-bar {
     transform: rotate(90deg);
 }
 
+
+/*///////////////////////////////
+              IMG
+///////////////////////////////*/
 
 
 
@@ -330,7 +332,6 @@ header .title-bar {
 
 #massage .textMassage {
     width: 30%;
-    display: inline-block;
     float: left;
     padding-top: 30px;
 }
