@@ -368,14 +368,14 @@ header .title-bar {
 }
 
 #massage a:hover {
-    color: #797979;
+    color: black;
 }
 
 #massage .hoverlay {
     position: absolute;
     bottom: 15px;
     right: -150px;
-    background-color: rgba(142, 211, 204, 0.8);
+    background-color: #794e34;
     width: 50%;
     height: 250px;
 }
@@ -388,10 +388,11 @@ header .title-bar {
 
 
 
+
 .bg-img {
     background-image: url('../img/massage4.jpg');
 
-    min-height: 600px;
+    height: 720px;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -399,21 +400,42 @@ header .title-bar {
     position: relative;
 }
 
+.containerx h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
 .containerx {
     position: absolute;
     right: 0;
     margin: 20px;
-    max-width: 300px;
+    max-width: 500px;
     padding: 16px;
-    background-color: white;
+    background-color: #794e34;
+    border-radius: 20px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text], input[type=email] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
+    border-radius: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    height: 150px;
+    border-radius: 20px;
+
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
@@ -422,13 +444,15 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 .btn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     opacity: 0.9;
+    border-radius: 20px;
 }
 
 .btn:hover {
