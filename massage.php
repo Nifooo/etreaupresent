@@ -9,9 +9,22 @@ $massages = $query->fetchAll();
 
 //debug($massages);
 
-include('inc/header.php');
+include('inc/header.php'); ?>
 
-foreach ($massages as $massage) {
+<div id="explicationMassage">
+    <div class="rond">
+        <h2>Les massages Bien- Etre</h2>
+        <div class="barMassage"></div>
+        <p>Massage à but non thérapeutiques à l huile biologique exclusivement</p>
+
+        <p>Les bienfaits du massage</p>
+        <div class="barMassage"></div>
+
+        <h3>Le massage est une technique de relaxation dont l’origine est ancestrale. Il apporte de nombreux effets positifs pour le corps. Le massage a pour  but de détendre et d'apporter bien-être et relaxation.La principale vertu du massage est de réduire le stress, car neuf maladies sur dix y sont liées. En réduisant l’anxiété, il aidera à mieux dormir, et à avoir ainsi un meilleur réveil le matin. Vous serez ainsi plus motivés et surtout plus concentrés sur vos tâches quotidiennes. Le massage améliore également votre circulation sanguine et lymphatique et stimule vos défenses immunitaires. Il permet de soulager les tensions musculaires et émotionnelles.</h3>
+    </div>
+</div>
+
+<?php foreach ($massages as $massage) {
 
     ;; ?>
     <div id="listeMassage">
