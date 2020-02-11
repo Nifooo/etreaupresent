@@ -40,6 +40,8 @@ header .title-bar {
     margin: 4px 0 0 40%;
     font-family: 'Dancing Script', cursive;
     font-size: 1.8em;
+    text-decoration: none;
+    color: black;
 }
 
 .overlay {
@@ -249,10 +251,41 @@ header .title-bar {
 
 
 
+#explicationMassage {
+    padding: 40px 5%;
+    text-align: center;
+    background-image: url('../img/massage3.jpg');
+    color: white;
+}
+
+#explicationMassage .rond {
+    background-color: rgba(142, 211, 204, 0.700);
+}
+
+#explicationMassage h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 40px 0;
+}
+
+#explicationMassage p {
+    font-size: 1.8em;
+    line-height: 40px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#explicationMassage h3 {
+    padding: 0 20% 20px 20%;
+    line-height: 24px;
+}
+
 #listeMassage {
     float: left;
     width: 50%;
-    padding: 40px 10%;
+    padding: 60px 10%;
     line-height: 20px;
 }
 
@@ -287,6 +320,14 @@ header .title-bar {
     border: 1px solid #8ED3CC;
     border-radius: 20px;
     box-shadow: 10px 10px 20px grey;
+}
+
+.barMassage {
+    height: 1px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 
