@@ -26,7 +26,7 @@ include('inc/header.php'); ?>
 
 <?php foreach ($massages as $massage) {
 
-    ;; ?>
+    ?>
     <div id="listeMassage">
             <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
 
