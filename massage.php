@@ -31,10 +31,10 @@ include('inc/header.php'); ?>
             <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
 
             <div class="mass">
-            <a href="infomassage.php"><h3><?= $massage['nom']; ?></h3></a>
+            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><h3><?= $massage['nom']; ?></h3></a>
             <h4><?= $massage['prix'] . '€'; ?></h4>
             <h4><?= $massage['time']; ?></h4>
-            <a href="infomassage.php"><p>Voir plus -></p></a>
+            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><p>Voir plus -></p></a>
             </div>
     </div>
 

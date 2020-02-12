@@ -9,6 +9,7 @@ include('inc/function.php');
     $query->bindValue(':id', $id, PDO::PARAM_INT);
     $query->execute();
     $massage = $query->fetch();
+    //debug($massage);
 
 ?>
 
