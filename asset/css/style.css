@@ -331,9 +331,58 @@ header .title-bar {
 }
 
 
+/*///////////////////////////////
+        MASSAGES INFOS
+///////////////////////////////*/
 
 
 
+.infomassages {
+    padding: 30px 10%;
+}
+
+.infomassages img {
+    display: block;
+    margin: 0 auto;
+}
+
+.infomassages h3 {
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.infomassages h4 {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.infomassages h5 {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 30px;
+    padding: 20px 10% 80px 10%;
+}
+
+.infomassages a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background-color: #8ED3CC;
+    border: none;
+    width: 30%;
+    margin-left: 19%;
+}
+
+.infomassages a:hover {
+    background-color: white;
+    border: 1px solid #8ED3CC;
+    color: #8ED3CC;
+}
 
 
 
