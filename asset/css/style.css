@@ -601,7 +601,16 @@ footer {
     background-color: #b77952cb;
     color: white;
 }
-footer h3 {
+
+footer ul {
+    padding: 5% 0 0 0;
+}
+footer li {
+    line-height: 25px;
+    width: 50%;
+}
+footer li p {
+    margin-left: 15%;
     display: inline;
 }
 footer .barfooter {
@@ -612,30 +621,35 @@ footer .barfooter {
     margin: 0 0 3px 10px;
 }
 footer .social {
+    padding: 2% 0px 0px 0px;
     width: 20%;
-    display: inline-block;
+    float: left;
     margin-left:4.5% ;
 }
 
 .social img {
-    width: 6%;
+    width: 12%;
+    margin-left: 10%;
 }
 
 footer .found {
+    padding: 2% 0px 0px 0px;
     width: 20%;
     display: inline-block;
     margin-left:4.5% ;
 }
 .found img {
-    width: 6%;
+    width: 12%;
 }
 footer .information {
+    padding: 2% 0px 0px 0px;
     width: 20%;
-    display: inline-block;
+    float: right;
     margin-left:4.5% ;
 }
 footer .photo {
+    padding: 2% 0px 0px 0px;
     width: 20%;
-    display: inline-block;
+    float: right;
     margin-left:4.5% ;
 }
