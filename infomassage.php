@@ -20,8 +20,8 @@ include('inc/header.php'); ?>
             <h4><?= $massage['prix'] . '€'; ?></h4>
             <h4><?= $massage['time']; ?></h4>
             <h5><?= $massage['description']; ?></h5>
-            <a href="massage.php">Tous les massages</a>
-            <a href="massage.php">Réserver une date</a>
+            <a href="massage.php"><button>Tous les massages</button></a>
+            <a href="massage.php"><button>Réserver une date</button></a>
             </div>
     <div class="clear"></div>
 </div>

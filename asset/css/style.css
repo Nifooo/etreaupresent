@@ -367,7 +367,7 @@ header .title-bar {
     padding: 20px 10% 80px 10%;
 }
 
-.infomassages a {
+.infomassages a button {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -375,10 +375,11 @@ header .title-bar {
     background-color: #8ED3CC;
     border: none;
     width: 30%;
-    margin-left: 19%;
+    margin-left: 13.2%;
+    border: 1px solid #8ED3CC;
 }
 
-.infomassages a:hover {
+.infomassages a button:hover {
     background-color: white;
     border: 1px solid #8ED3CC;
     color: #8ED3CC;
