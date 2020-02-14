@@ -27,15 +27,18 @@ include('inc/header.php'); ?>
 <?php foreach ($massages as $massage) {
 
     ?>
+    
     <div id="listeMassage">
-            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><img src="asset/img/logo.png" alt="logo du site"></a>
+        <div class="wrapX">
+            <a href="infomassage.php?id=<?php echo $massage['id']; ?>" class="imgMassage"><img src="asset/img/logo.png" alt="logo du site"></a>
 
-            <div class="mass">
-            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><h3><?= $massage['nom']; ?></h3></a>
+            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><div class="mass">
+            <h3><?= $massage['nom']; ?></h3>
             <h4><?= $massage['prix'] . '€'; ?></h4>
             <h4><?= $massage['time']; ?></h4>
-            <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><p>Voir plus -></p></a>
-            </div>
+            <p>Voir plus -></p>
+            </div></a>
+        </div>
     </div>
 
 

@@ -42,7 +42,19 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 }
 
+var mass = $('.mass')
 
+function effectMassage() {
+    mass.css('width', '70%')  
+    mass.css('margin-left', '15%')
+    mass.css('line-height', '16px') 
+}
+
+function effectMassageInverse() {
+    mass.css('width', '80%')  
+    mass.css('margin-left', '10%')
+    mass.css('line-height', '20px')  
+}
 
 
 $(document).ready(function(){
@@ -62,3 +74,4 @@ $(document).ready(function(){
         }
     });
 });
+

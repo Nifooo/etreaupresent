@@ -292,6 +292,7 @@ header .title-bar {
 #listeMassage img {
    display: block;
    margin: 0 auto;
+   width: 80%;
 }
 
 #listeMassage h3 {
@@ -320,6 +321,13 @@ header .title-bar {
     border: 1px solid #8ED3CC;
     border-radius: 20px;
     box-shadow: 10px 10px 20px grey;
+    width: 80%;
+    margin-left: 10%;
+    transition: 0.4s;
+}
+
+#listeMassage .mass:hover {
+    font-size: 1.1em;
 }
 
 .barMassage {
