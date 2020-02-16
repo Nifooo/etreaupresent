@@ -326,10 +326,6 @@ header .title-bar {
     transition: 0.4s;
 }
 
-#listeMassage .mass:hover {
-    font-size: 1.1em;
-}
-
 .barMassage {
     height: 1px;
     background-color: white;
