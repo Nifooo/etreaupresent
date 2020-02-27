@@ -2,6 +2,25 @@
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <link href='asset/css/fullCalendar/main.css' rel='stylesheet' />
+    <link href='asset/css/fullCalendar/main2.css' rel='stylesheet' />
+
+    <script src='asset/js/fullCalendar/main.js'></script>
+    <script src='asset/js/fullCalendar/main2.js'></script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: [ 'dayGrid' ]
+        });
+
+        calendar.render();
+      });
+
+    </script>
     <link rel="icon" type="image/png" href="asset/img/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
