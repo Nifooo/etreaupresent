@@ -29,7 +29,7 @@ include('inc/header.php'); ?>
     ?>
     
     <div id="listeMassage">
-        <div class="wrapX" onmouseover="effectMassage()" onmouseout="effectMassageInverse()">
+        <div class="wrapX">
             <a href="infomassage.php?id=<?php echo $massage['id']; ?>" class="imgMassage"><img src="asset/img/logo.png" alt="logo du site"></a>
 
             <a href="infomassage.php?id=<?php echo $massage['id']; ?>"><div class="mass">
